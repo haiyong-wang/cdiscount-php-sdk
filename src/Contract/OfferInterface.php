@@ -14,4 +14,6 @@ interface OfferInterface
      * @return array 返回结果包含报价数据和分页信息
      */
     public function getOffers(array $params, array $header = []);
+
+    public function getProducts(array $params, array $header = []);
 }
